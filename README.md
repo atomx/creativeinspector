@@ -1,4 +1,4 @@
-# creativeinspector
-Chrome extension to inspect creatives served by Atomx
+# Creative Inspector
+Chrome extension to inspect creatives served by Atomx. Helps publishers of the Atomx Media Exchange to inspect creatives and report undesired creatives.
 
-See https://chrome.google.com/webstore/detail/atomx-creative-inspector/gdhajkojlbfhdoedlmolgdobnmdkmmld
+Can be installed from the [Chrome Web Store](https://chrome.google.com/webstore/detail/atomx-creative-inspector/gdhajkojlbfhdoedlmolgdobnmdkmmld).
