@@ -1,0 +1,61 @@
+#atomxinspect {
+position: absolute;
+z-index: 2147483647;
+left: 0;
+top: 0;
+color: #fff;
+text-decoration: none;
+
+/* Counter PSA ad styles: */
+display: block;
+width: auto;
+height: auto;
+padding: 0;
+margin: 0; /* To be sure */
+background: none;
+word-wrap: initial;
+word-break: initial;
+}
+
+#atomxinspect em {
+display: block;
+width: 16px;
+height: 16px;
+text-align: center;
+font: normal 17px/16px "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", serif;
+font-style: normal;
+background-color: rgba(0, 168, 255, .8);
+-webkit-border-radius: 1px;
+border-radius: 1px;
+
+/* Counter PSA ad styles: */
+position: static;
+opacity: 1;
+filter: none;
+}
+
+#atomxinspect span {
+display: none;
+}
+
+#atomxinspect:hover {
+width: 100%;
+height: 100%;
+background-color: rgba(0, 168, 255, .5);
+
+/* Counter PSA ad styles: */
+text-decoration: none;
+}
+
+#atomxinspect:hover span {
+display: block;
+position: absolute;
+top: 50%;
+text-align: center;
+font: normal 15px/30px "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", sans-serif;
+width: 100%;
+padding: .5em;
+margin-top: -1.5em;
+background-color: rgba(0, 168, 255, .8);
+box-sizing: border-box;
+}

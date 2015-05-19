@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Atomx Creative Inspector",
+  "description": "Helps publishers of the Atomx Media Exchange to inspect creatives and report undesired creatives.",
+  "version": "1.0.2",
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+             "128": "icon128.png" },
+
+  "content_scripts": [
+    {
+      "js": ["frame.js"],
+      "css": ["frame.css"],
+      "all_frames": true,
+      "matches": ["*://p.ato.mx/*"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
