@@ -1,6 +1,6 @@
 var matches = document.body.innerHTML.match(/<!-- ([0-9:]+) -->/);
 
-if (matches && document.referrer.indexOf('atomx.com/inspectcreative/') == -1) {
+if (matches && document.referrer.indexOf('atomx.com/inspectcreative/') == -1 && document.referrer.indexOf('p.ato.mx/creative') == -1) {
 
   // Add a button to the top left of all Atomx creatives on the page
   var btn = document.createElement('a');
